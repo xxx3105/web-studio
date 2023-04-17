@@ -1,0 +1,228 @@
+.list-of-projects-name {
+  display: none;
+}
+
+.linie-header {
+  border-bottom: solid 1px var(--last-abz-color);
+  box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.3);
+}
+
+/* GROUP OF BUTTONS */
+
+.buttons {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  justify-content: left;
+  margin: 0 0 48px 0;
+  padding: 0;
+  flex-wrap: wrap;
+  max-width: 263px;
+}
+
+.button-port {
+  background-color: var(--logo-f-color);
+  color: var(--but-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-bottom: 0;
+  transition: 350ms background-color cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-port:hover,
+.button-port:focus {
+  color: var(--center-color);
+  background-color: var(--button2-color);
+  cursor: pointer;
+  box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.3);
+}
+
+.button-position {
+  margin: 0;
+  padding: 48px 0;
+}
+
+/* PICTURES */
+
+.shadow-for-list-of-proj {
+  cursor: pointer;
+  margin-top: 48px;
+}
+
+.shadow-for-list-of-proj:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.oblast-tika:hover .windowz::after {
+  transform: translateY(0);
+}
+
+.oblast-tika:hover .storka-text {
+  transform: translateY(-300px);
+}
+
+.no-link-line-proj {
+  list-style: none;
+  text-decoration: none;
+}
+
+.windowz {
+  position: relative;
+  overflow: hidden;
+}
+
+.windowz::after {
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: var(--logo-l-color);
+  opacity: 1;
+  transform: translateY(335px);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 0;
+}
+
+.ramka-img {
+  display: block;
+  position: relative;
+  display: flex;
+  width: 398px;
+}
+
+.storka-text {
+  color: var(--logo-f-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  position: absolute;
+  transform: translateY(300px);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 40px 32px 164px;
+  z-index: 1;
+}
+
+.point-proj-pos {
+  padding: 32px 54px 32px 16px;
+  border-left: var(--last-abz-color) solid 1px;
+  border-bottom: var(--last-abz-color) solid 1px;
+  border-right: var(--last-abz-color) solid 1px;
+}
+
+.list-of-projects-points {
+  color: var(--logo-r-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  padding: 0;
+  margin: 0 0 8px 0;
+}
+
+.section-abz {
+  color: var(--contact-color);
+  font-family: "Roboto" sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+
+/* *******************************TABLET*********************** */
+
+@media only screen and (min-width: 768px) {
+  .button-port {
+    padding: 16px 32px 16px 32px;
+  }
+
+  .linie-header {
+    border-bottom: solid 1px var(--last-abz-color);
+  }
+
+  .buttons {
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    margin-bottom: 64px;
+    padding: 0;
+    max-width: 768px;
+  }
+
+  .button-position {
+    margin: 0;
+    padding: 64px 0 96px;
+  }
+
+  .ramka-img {
+    max-width: 356px;
+  }
+
+  .windowz::after {
+    transform: translateY(305px);
+  }
+
+  .shadow-for-list-of-proj {
+    margin: 0 0 72px 0;
+    display: block;
+  }
+
+  .point-proj-pos {
+    max-width: 360px;
+    margin: 0;
+  }
+
+  .list-of-projects {
+    list-style: none;
+    display: flex;
+    margin: 0 0 0 0;
+    gap: 0;
+    padding: 0;
+    max-width: 768px;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+
+  .shadow-for-list-of-proj:last-child {
+    margin-bottom: 0;
+  }
+
+  .shadow-for-list-of-proj:nth-child(2n) {
+    margin-left: 24px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .list-of-projects {
+    list-style: none;
+    display: flex;
+    margin: 0 0 0 0;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+    max-width: 1440px;
+  }
+
+  .button-position {
+    padding: 100px 0 120px;
+  }
+  .shadow-for-list-of-proj {
+    margin: 0;
+  }
+  .buttons {
+    margin-bottom: 72px;
+  }
+
+  .shadow-for-list-of-proj:nth-child(2n) {
+    margin-left: 0;
+  }
+}

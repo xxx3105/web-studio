@@ -1,0 +1,160 @@
+.advantages-cont {
+  margin-top: 96px;
+}
+
+.list-of-fetaures-name {
+  margin: 0 0 0 0;
+  padding: 0;
+  display: none;
+}
+
+.table-list-of-feautures {
+  display: block;
+  text-align: left;
+}
+
+.logo-up {
+  width: 0;
+  height: 0;
+}
+
+.container-section {
+  padding-bottom: 0;
+  padding-top: 96px;
+}
+
+.key-points {
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.28;
+  color: var(--contact-color);
+  max-width: 396px;
+}
+
+.mob-position-features {
+  margin-bottom: 75px;
+}
+
+.mob-position-features:last-child {
+  margin-bottom: 96px;
+}
+
+.list-of-fetaures-points {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.95;
+  margin-bottom: 8px;
+  color: var(--logo-r-color);
+  text-align: center;
+}
+.but-pen {
+  display: none;
+}
+
+/* ---------------TABLET--------------------------------*/
+
+@media only screen and (min-width: 768px) {
+  .table-list-of-feautures {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .advantages-cont {
+    margin: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 120px;
+  }
+
+  .key-points {
+    max-width: 356px;
+  }
+
+  .mob-position-features {
+    margin-bottom: 75px;
+    width: 356px;
+  }
+
+  .list-of-fetaures-points {
+    text-align: left;
+  }
+}
+
+/* ---------------DESKTOP--------------------------------*/
+
+@media only screen and (min-width: 1200px) {
+  .list-of-fetaures-points {
+    color: var(--logo-r-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: left;
+    margin: 0 0 8px 0;
+    padding: 0;
+  }
+
+  .but-pen {
+    fill: var(--logo-r-color);
+    cursor: pointer;
+    height: 64px;
+    width: 64px;
+    display: block;
+  }
+
+  .table-list-of-feautures {
+    list-style: none;
+
+    padding: 0;
+    margin: 0 0 0 0;
+    display: flex;
+    text-align: left;
+    gap: 24px;
+  }
+
+  .key-points {
+    color: var(--contact-color);
+    font-family: "Roboto", sans-serif;
+
+    font-size: 16px;
+    line-height: 1.5;
+
+    padding: 0;
+    margin: 0;
+    max-width: 264px;
+    font-weight: 400;
+  }
+
+  .container-section {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .logo-up {
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background-color: var(--logo-f-color);
+    border: var(--logo-f-color);
+    margin: 0 0 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .table-list-of-feautures {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .mob-position-features {
+    max-width: 264px;
+  }
+}

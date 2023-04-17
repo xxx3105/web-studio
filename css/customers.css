@@ -1,0 +1,160 @@
+.customers-position {
+  padding: 48px 0;
+}
+
+.table-customers {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.customer-title {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--logo-r-color);
+  margin-bottom: 24px;
+}
+
+.logo-link {
+  width: 190px;
+  height: 88px;
+  background-color: var(--center-color);
+  border-radius: 4px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  border: 1px solid var(--ramka-cutomer-color);
+  transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.log-pict-zwei {
+  fill: var(--ramka-cutomer-color);
+  transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.log-pict {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.point-kille-pos-logo {
+  list-style: none;
+  margin-top: 24px;
+}
+
+.point-kille-pos-logo:nth-child(2n) {
+  margin-left: 0;
+}
+
+.point-kille-pos-logo:nth-last-child(-n + 2) {
+  margin-bottom: 0;
+}
+
+.point-kille-pos-logo:focus {
+  border: var(--tochki-color);
+}
+
+.logo-link:hover .log-pict-zwei {
+  fill: var(--button2-color);
+}
+
+.logo-link:hover {
+  border: 1px solid var(--button2-color);
+}
+
+/* BEFORE WAS MY MOBILE */
+
+@media only screen and (min-width: 405px) {
+  .point-kille-pos-logo:nth-child(2n) {
+    margin-left: 24px;
+  }
+
+  .point-kille-pos-logo:nth-child(-n + 2) {
+    margin-top: 0;
+  }
+
+  .customer-title {
+    margin-bottom: 72px;
+  }
+
+  .customers-position {
+    padding: 96px 0;
+  }
+}
+
+/* -------------------TABLEET ------------*/
+
+@media only screen and (min-width: 768px) {
+  .customers-position {
+    padding: 72px 0 96px 0;
+  }
+
+  .table-customers {
+    max-width: 552px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .logo-link {
+    width: 168px;
+    height: 88px;
+  }
+
+  .point-kille-pos-logo {
+    margin-left: 24px;
+  }
+
+  .point-kille-pos-logo:first-child {
+    margin-left: 0;
+  }
+
+  .point-kille-pos-logo:nth-child(4) {
+    margin-left: 0;
+  }
+
+  .point-kille-pos-logo:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+  }
+  .point-kille-pos-logo:nth-child(-n + 3) {
+    margin-top: 0;
+  }
+}
+/* -------------------DESKTOP ------------*/
+@media only screen and (min-width: 1200px) {
+  .table-customers {
+    display: flex;
+    list-style: none;
+  }
+
+  .table-customers {
+    max-width: none;
+  }
+
+  .point-kille-pos-logo:nth-child(4) {
+    margin-left: 24px;
+  }
+  .point-kille-pos-logo,
+  .point-kille-pos-logo:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+  }
+
+  .customers-position {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .point-kille-pos-logo {
+    margin-top: 0;
+  }
+}

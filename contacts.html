@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#fd9222" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webstudio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header class="container head-menu linie-header">
+      <div>
+        <a class="head-name-company" href="./index.html"
+          ><span class="head-name-one">WEB</span>
+          <span class="head-name-two">STUDIO</span>
+        </a>
+      </div>
+      <div class="head-menu-but-posit">
+        <button
+          type="button"
+          class="head-menu-button is-open"
+          data-menu-button
+          aria-expanded="false"
+        >
+          <svg
+            class="head-menu-header-button"
+            aria-label="Переключатель мобильного меню"
+          >
+            <use
+              class="head-icon-kreuz"
+              href="./img/icons.svg#icon-kreuz"
+            ></use>
+            <use class="head-icon-menu" href="./img/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+
+        <!-- MENU - MOBILE -->
+
+        <div class="menu-container" data-menu>
+          <nav>
+            <ul class="menu-mobile-list">
+              <li class="menu-spisok-point">
+                <a class="menu-mobile-text" href="./index.html">Studio</a>
+              </li>
+              <li class="menu-spisok-point">
+                <a class="menu-mobile-text" href="./portf-projects.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="menu-spisok-point">
+                <a class="menu-mobile-text" href="./contacts.html">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobile-contacts">
+            <ul class="mobile-contacts">
+              <li>
+                <a class="mobile-contacts-phone" href="tel:+380508696255">
+                  +380 (50) 869-62-55</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mobile-contacts-email"
+                  href="mailto:greenevsky@gmail.com"
+                  >greenevsky@gmail.com</a
+                >
+
+                <ul class="social-links-menu">
+                  <li class="pos-socseti-menu">
+                    <a class="znachki-socseti-pos" href="#">
+                      <svg class="znachki-socseti" width="24" height="24">
+                        <use href="./img/icons.svg#icon-insta"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="pos-socseti-menu">
+                    <a class="znachki-socseti-pos" href="#">
+                      <svg class="znachki-socseti" width="24" height="24">
+                        <use href="./img/icons.svg#icon-twit"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="pos-socseti-menu">
+                    <a class="znachki-socseti-pos" href="#">
+                      <svg class="znachki-socseti" width="24" height="24">
+                        <use href="./img/icons.svg#icon-fac"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="pos-socseti-menu">
+                    <a class="znachki-socseti-pos" href="#">
+                      <svg class="znachki-socseti" width="24" height="24">
+                        <use href="./img/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
+
+      <!-- TABLET  -->
+      <nav>
+        <ul class="head-pages">
+          <li><a class="head-pages-links" href="./index.html">Studio</a></li>
+          <li>
+            <a class="head-pages-links" href="./portf-projects.html"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a class="head-pages-links-cur" href="./contacts.html">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <address>
+        <ul class="head-adress-tabl">
+          <li>
+            <a class="head-adr-tabl-font" href="mailto:greenevsky@gmail.com"
+              >greenevsky@gmail.com</a
+            >
+          </li>
+          <li class="head-adr-tabl-pos">
+            <a class="head-adr-tabl-font" href="tel:+380508696255">
+              +380 (50) 869-62-55</a
+            >
+          </li>
+        </ul>
+      </address>
+    </header>
+
+    <!-- CONTENT -->
+
+    <div class="cont-pos">
+      <div class="cont-text">
+        <h2 class="cont-title">Contact info:</h2>
+        <br />
+        <p>
+          <b> WebStudio of Vladyslav Hrynevskyi</b>
+          <br /><br />
+          <b>Address: </b>
+          St.Gallenstrasse 13 <br />
+          9300 Wittenbach Switzerland
+          <br />
+          <b>Phone:</b>
+          <a class="cont-tel-mobile" href="tel:+41795104246">
+            +41 (79) 510-42-46</a
+          >
+          <br />
+          <b> Messengers:</b>
+          <a class="cont-tel-mess" href="tel:+380508696255">
+            +380 (50) 869-62-55</a
+          >
+          <br />
+
+          <b> Hours of operation:</b>
+          <br />
+          0am-24pm
+          <br />
+          Monday – Sunday
+          <br />
+        </p>
+      </div>
+
+      <!-- MAP -->
+
+      <div class="cont-map-mobile">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d626.9935397438702!2d9.396647245617853!3d47.45770556013461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479b1dd6231a9af1%3A0x22f326216d30ebe9!2sSt.%20Gallerstrasse%2013%2C%209300%20Wittenbach!5e1!3m2!1sru!2sch!4v1681650971266!5m2!1sru!2sch"
+          width="400"
+          height="350"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <div class="cont-map-desktop">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d626.9935397438702!2d9.396647245617853!3d47.45770556013461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479b1dd6231a9af1%3A0x22f326216d30ebe9!2sSt.%20Gallerstrasse%2013%2C%209300%20Wittenbach!5e1!3m2!1sru!2sch!4v1681650971266!5m2!1sru!2sch"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+
+    <footer class="footer-style">
+      <div class="container foot-common-position">
+        <div class="foot-tabl-pos">
+          <div class="foot-tabl-pos-left">
+            <a class="foot-name-company" href="./index.html"
+              ><span class="foot-name-one">WEB</span>
+              <span class="foot-name-two">STUDIO</span>
+            </a>
+
+            <p class="foot-text">
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions.
+            </p>
+          </div>
+
+          <div class="foot-tabl-pos-right">
+            <p class="foot-soc-name">Social media</p>
+
+            <ul class="foot-socseti">
+              <li class="foot-socseti-last">
+                <a class="foot-krug-socseti" href="#">
+                  <svg class="foot-znachki-socseti" width="16" height="16">
+                    <use
+                      href="/webstudio/assets/icons-6148a73d.svg#icon-insta"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="foot-socseti-last">
+                <a class="foot-krug-socseti" href="#">
+                  <svg class="foot-znachki-socseti" width="16" height="16">
+                    <use
+                      href="/webstudio/assets/icons-6148a73d.svg#icon-twit"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="foot-socseti-last">
+                <a class="foot-krug-socseti" href="#">
+                  <svg class="foot-znachki-socseti" width="16" height="16">
+                    <use
+                      href="/webstudio/assets/icons-6148a73d.svg#icon-fac"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="foot-socseti-last">
+                <a class="foot-krug-socseti" href="#">
+                  <svg class="foot-znachki-socseti" width="16" height="16">
+                    <use
+                      href="/webstudio/assets/icons-6148a73d.svg#icon-linkedin"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="foot-tabl-pos-two">
+          <p class="foot-soc-name-two">Subscribe</p>
+
+          <div class="foot-subscribe-field">
+            <form action="form js-speaker-form">
+              <label for="email-two"> </label>
+              <input
+                class="foot-color-subscr"
+                type="email"
+                name="mail"
+                id="email-two"
+                placeholder="E-Mail"
+              />
+
+              <div class="foot-but-position">
+                <button type="submit" class="foot-but-prop">
+                  <div class="foot-airplan">
+                    <span class="foot-name-of-button">Subscribe</span>
+                    <svg width="20px" height="24px" class="sub-btn-icon">
+                      <use
+                        href="/webstudio/assets/icons-6148a73d.svg#icon-airplane"
+                      ></use>
+                    </svg>
+                  </div>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="./menu.js"></script>
+    <script type="module" src="./modal.js"></script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+:root {
+  --logo-l-color: #4d5ae5;
+  --logo-r-color: #2e2f42;
+  --contact-color: #434455;
+  --center-color: #ffffff;
+  --but-color: #4d5ae5;
+  --logo-f-color: #f4f4fd;
+  --button2-color: #404bbf;
+  --last-abz-color: #e7e9fc;
+  --ramka-cutomer-color: #8e8f99;
+  --tochki-color: #424355;
+  --foote-hoover: #31d0aa;
+  --belii-modal: #fcfcfc;
+  --mod-color: rgb(46, 47, 66, 0.2);
+}
+
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+  outline: transparent;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  outline: transparent;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--center-color);
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 428px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-bottom: 96px;
+}
+
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .section {
+    padding-bottom: 96px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1440px;
+  }
+
+  .section {
+    padding-bottom: 120px;
+  }
+}

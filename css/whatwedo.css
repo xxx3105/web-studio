@@ -1,0 +1,44 @@
+.what-we-do-sect {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .what-we-do-sect {
+    display: none;
+  }
+}
+
+/* -------------------DESKTOP ------------*/
+
+@media only screen and (min-width: 1200px) {
+  .what-we-do {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--logo-r-color);
+    text-align: center;
+    display: block;
+    padding: 0;
+    margin: 0 0 72px 0;
+  }
+
+  .what-we-do-list {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    margin-bottom: 120px;
+  }
+
+  .do-list-img {
+    display: block;
+  }
+
+  .what-we-do-sect {
+    padding: 0 0 120px 0;
+    display: contents;
+  }
+}

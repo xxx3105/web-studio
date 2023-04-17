@@ -1,0 +1,105 @@
+<section class="container hero-section">
+  <h1 class="hero">
+    Effective Solutions<br />
+    for Your Business
+  </h1>
+
+  <button class="herobutton" type="button" data-modal-open>
+    Order Service
+  </button>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <div class="position-but-modal">
+        <button class="button-modal" data-modal-close>
+          <svg class="kreuz-modal" width="8" height="8">
+            <use href="./img/icons.svg#icon-kreuz"></use>
+          </svg>
+        </button>
+      </div>
+
+      <p class="text-modal">Leave your contacts and we will call you back</p>
+
+      <form class="form js-speaker-form">
+        <div class="menu-pos">
+          <div class="form-field">
+            <label class="text-label" for="name">Name</label>
+            <div class="jakor">
+              <input
+                class="color-mod-field"
+                type="text"
+                name="user-name"
+                id="name"
+                placeholder="  "
+              />
+
+              <svg class="img-pos" width="12" height="12">
+                <use href="./img/icons.svg#icon-modal1"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label class="text-label" for="tel">Phone</label>
+            <div class="jakor">
+              <input
+                class="color-mod-field"
+                type="tel"
+                name="tel"
+                id="tel"
+                placeholder="  "
+              />
+              <svg class="img-pos" width="13" height="12">
+                <use href="./img/icons.svg#icon-modal2"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label class="text-label" for="email">Email</label>
+            <div class="jakor">
+              <input
+                class="color-mod-field"
+                type="email"
+                name="mail"
+                id="email"
+                placeholder="  "
+              />
+              <svg class="img-pos" width="15" height="12">
+                <use href="./img/icons.svg#icon-modal3"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label class="text-label" for="comment">Comment</label>
+            <textarea
+              class="comment"
+              name="comment"
+              id="comment"
+              rows="8"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+
+          <div class="pol-position">
+            <input
+              class="galka-pos"
+              type="checkbox"
+              name="topic"
+              value="html"
+              id="html"
+            />
+            <label for="html">
+              <span class="text-policy">
+                I accept the terms and conditions of the
+                <a class="hero-modal-priv-pol" href="#"> Privacy Policy </a>
+              </span>
+            </label>
+          </div>
+
+          <button class="herobutton" type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

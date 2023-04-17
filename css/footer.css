@@ -1,0 +1,290 @@
+.footer-style {
+  background-color: var(--logo-r-color);
+  margin: auto;
+}
+.foot-name-company {
+  display: flex;
+  justify-content: center;
+  padding-top: 97px;
+}
+
+.foot-name-one {
+  color: var(--but-color);
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 99%;
+  display: block;
+}
+
+.foot-name-two {
+  color: var(--logo-f-color);
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 99%;
+  display: block;
+}
+
+.foot-text {
+  color: var(--logo-f-color);
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+  list-style: none;
+  text-decoration: none;
+  max-width: 268px;
+  margin: 17px auto 0 auto;
+}
+.foot-soc-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.28;
+  color: var(--center-color);
+  margin-top: 72px;
+  text-align: center;
+}
+
+.foot-socseti {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.foot-socseti-last {
+  margin-right: 16px;
+}
+
+.foot-socseti-last:last-child {
+  margin-right: 0px;
+}
+
+.foot-krug-socseti {
+  width: 40px;
+  height: 40px;
+  background-color: var(--but-color);
+  border-radius: 50%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-right: 0;
+  transition: 250ms background-color cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.foot-znachki-socseti {
+  fill: var(--logo-f-color);
+  height: 60%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.foot-krug-socseti:hover,
+.foot-krug-socseti:focus {
+  background-color: var(--foote-hoover);
+}
+
+.foot-soc-name-two {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.28;
+  color: var(--center-color);
+  margin-top: 72px;
+  text-align: center;
+}
+
+.foot-subscribe-field {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.foot-color-subscr {
+  background-color: var(--logo-r-color);
+  height: 40px;
+  width: 100%;
+  outline: none;
+  border: 1px solid var(--center-color);
+  border-radius: 4px;
+  color: var(--center-color);
+}
+
+.foot-color-subscr::placeholder {
+  color: var(rgb(255, 255, 255, 0.6));
+}
+
+.foot-but-position {
+  margin: 16px 0 96px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.foot-but-prop {
+  color: var(--center-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--but-color);
+  border: 1px;
+  min-width: 165px;
+  min-height: 40px;
+  margin: 0;
+  border-radius: 4px;
+  transition: 250ms background-color cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-block;
+}
+
+.herobutton:hover,
+.herobutton:focus {
+  color: var(--center-color);
+  background-color: var(--button2-color);
+}
+
+.foot-name-of-button {
+  margin: 8px 64px 8px 24px;
+  display: inline-block;
+}
+
+.sub-btn-icon {
+  position: absolute;
+  right: 29px;
+  top: 25%;
+  fill: var(--logo-f-color);
+}
+
+.foot-airplan {
+  position: relative;
+}
+
+/* BEFORE WAS MY MOBILE */
+
+@media only screen and (min-width: 396px) {
+  .foot-color-subscr {
+    width: 398px;
+  }
+}
+
+/* -------------------TABLET ------------*/
+
+@media only screen and (min-width: 768px) {
+  .footer-style {
+    justify-content: center;
+    display: flex;
+  }
+
+  .foot-common-position {
+    padding-top: 97px;
+  }
+
+  .foot-tabl-pos {
+    display: flex;
+  }
+
+  .foot-tabl-pos-right {
+    margin-left: 24px;
+  }
+
+  .foot-name-company {
+    justify-content: left;
+    padding-top: 0;
+  }
+
+  .foot-soc-name {
+    margin-top: 0;
+    text-align: left;
+  }
+
+  /* DOWN PART */
+
+  .foot-tabl-pos-two {
+    display: flex;
+    position: relative;
+  }
+
+  .foot-soc-name-two {
+    margin-left: 0;
+    margin-bottom: 152px;
+  }
+
+  .foot-color-subscr {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 264px;
+    margin: 0 0 96px 0;
+  }
+
+  .foot-but-position {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  .foot-but-position {
+    margin: 0 0 96px 292px;
+  }
+}
+
+/* -------------------DESKTOP ------------*/
+@media only screen and (min-width: 1200px) {
+  .footer-style {
+    display: block;
+  }
+
+  .foot-common-position {
+    display: flex;
+    padding-top: 101px;
+    padding-bottom: 100px;
+    justify-content: center;
+  }
+
+  .foot-soc-name-two {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .foot-color-subscr {
+    position: initial;
+
+    width: 264px;
+    margin: 0;
+  }
+
+  .foot-but-position {
+    position: absolute;
+    margin: 0 0 0 288px;
+  }
+
+  .foot-subscribe-field {
+    margin-top: 16px;
+    position: relative;
+  }
+
+  .foot-tabl-pos-right {
+    margin-left: 0;
+  }
+
+  .foot-tabl-pos-left {
+    margin-right: 120px;
+  }
+  .foot-tabl-pos-right {
+    margin-right: 80px;
+  }
+
+  .foot-tabl-pos-two {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    padding-right: 189px;
+  }
+}
