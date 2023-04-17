@@ -143,8 +143,8 @@
   display: inline-block;
 }
 
-.herobutton:hover,
-.herobutton:focus {
+.foot-but-prop:hover,
+.foot-but-prop:focus {
   color: var(--center-color);
   background-color: var(--button2-color);
 }
