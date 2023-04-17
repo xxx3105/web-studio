@@ -5,7 +5,7 @@
   /* overlay  */
   display: block;
   max-width: 1440px;
-  height: 600px;
+  max-height: 600px;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
@@ -335,5 +335,11 @@ input[type="email"] {
         transparent 450%
       ),
       url(../img/fon.jpg);
+  }
+
+  .hero-section {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    height: 600px;
   }
 }
