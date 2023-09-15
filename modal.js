@@ -13,6 +13,10 @@
   }
 })();
 
+  const subscribeEmail = document.getElementById('button-email');
+  subscribeEmail.addEventListener('click', textFunk);
 
- 
+  function textFunk() {
+    console.log("Thank you for your attention!");
+  }
   
